@@ -42,9 +42,9 @@ typeof(3) === typeof("3")
 3 / "bob"
 ```
 
-> _error_
+> _NaN_
 
-> _error_
+> _NaN_
 
 6. Qué retona la siguiente expresión?
 ```
@@ -60,27 +60,27 @@ NaN === NaN
 typeof(NaN)
 ```
 
-> _tu respuesta_
+> _NaN_
 
-> _resultado en la consola_
+> _number_
 
 8. Cual es el valor de la siguiente expresion?
 ```
 var hello
 ```
 
-> _tu respuesta_
+> _falsy_
 
-> _resultado en la consola_
+> _ _
 
 9. Qué retona la siguiente expresión?
 ```
 "some" + " person"
 ```
 
-> _tu respuesta_
+> _some person_
 
-> _resultado en la consola_
+> _some person_
 
 10. Qué retona la siguiente expresión?
 ```
@@ -88,8 +88,8 @@ var sport;
 sport === undefined
 ```
 
-> _tu respuesta_
+> _true_
 
-> _resultado en la consola_
+> _true_
 
 

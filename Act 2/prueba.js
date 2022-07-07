@@ -1,3 +1,3 @@
 var sport; 
-console.log(sport === undefined)
+console.log(sport)
 
