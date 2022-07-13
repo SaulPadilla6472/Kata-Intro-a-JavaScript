@@ -7,8 +7,8 @@ function buscar(oracion, palabra){
         return false
     }
 }
-console.log(buscar("Hola mundo", "perro"))
-console.log(buscar("Hola mundo", "mundo"))
+//console.log(buscar("Hola mundo", "perro"))
+//console.log(buscar("Hola mundo", "mundo"))
 
 //2
 const numbers = [1,2,3,4,10,11]
@@ -21,7 +21,7 @@ function sumar(array){
     }
     return suma
 }
-console.log(sumar(numbers))
+//console.log(sumar(numbers))
 
 //3
 function palindromo(palabra){
@@ -48,7 +48,7 @@ function repeticion(cadena, letra){
     }
     return contador
 }
-console.log(repeticion("Hola mundo", "o"))
+//console.log(repeticion("Hola mundo", "o"))
 
 //5
 let arregloMayor = [45, 56, 32, 98, 1000, 5, 23]
@@ -61,7 +61,7 @@ function mayor(arreglo){
     }
     return max
 }
-console.log(mayor(arregloMayor))
+//console.log(mayor(arregloMayor))
 
 //6
 //1= C a F, 2= F a C
@@ -75,5 +75,5 @@ function temperatura(eleccion, temp1){
     }
     return temp
 }
-console.log(temperatura(1,100))
-console.log(temperatura(2,100))
+//console.log(temperatura(1,100))
+//console.log(temperatura(2,100))
