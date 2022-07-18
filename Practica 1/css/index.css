@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+height: 20vh;
+width: 100%;
+background-color: black;
+color: white;
+display: flex;
+}
+
+main{
+display: flex;
+}
+
+section{
+    height: 80vh;
+    background-color: black;
+    width: 75%;
+    display: flexbox;
+}
+
+aside{
+    height: 80vh;
+    width: 25%;
+    background-color: red;
+    right: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.operacion{
+    height: 20%;
+    width: 100%;
+    background-color: orange;
+}
+
+.numeros{
+    width: 33%;
+    height: 25%;
+}
