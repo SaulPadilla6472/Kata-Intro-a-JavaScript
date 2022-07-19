@@ -9,29 +9,29 @@
 </head>
 <body>
     <header>
-        <h1 id=" display">0</h1>
+        <h1 id="numero1">0</h1><h1 id="operador"></h1><h1 id="numero2"></h1>
     </header>
     <main>
         <section>
-        <button class="numeros">7</button>
-        <button class="numeros">8</button>
-        <button class="numeros">9</button>
-        <button class="numeros">4</button>
-        <button class="numeros">5</button>
-        <button class="numeros">6</button>
-        <button class="numeros">1</button>
-        <button class="numeros">2</button>
-        <button class="numeros">3</button>
-        <button class="numeros">AC</button>
-        <button class="numeros">0</button>
-        <button class="numeros">.</button>
+        <button class="numeros" onclick="agregarNumero('7');">7</button>
+        <button class="numeros" onclick="agregarNumero('8');">8</button>
+        <button class="numeros" onclick="agregarNumero('9');">9</button>
+        <button class="numeros" onclick="agregarNumero('4');">4</button>
+        <button class="numeros" onclick="agregarNumero('5');">5</button>
+        <button class="numeros" onclick="agregarNumero('6');">6</button>
+        <button class="numeros" onclick="agregarNumero('1');">1</button>
+        <button class="numeros" onclick="agregarNumero('2');">2</button>
+        <button class="numeros" onclick="agregarNumero('3');">3</button>
+        <button class="numeros" onclick="limpiar()">AC</button>
+        <button class="numeros" onclick="agregarNumero('0');">0</button>
+        <button class="numeros" onclick="agregarNumero('.');">.</button>
         </section>
     <aside>
-        <button class="operacion">/</button>
-        <button class="operacion">+</button>
-        <button class="operacion">-</button>
-        <button class="operacion">x</button>
-        <button class="operacion">=</button>
+        <button class="operacion" onclick="dividir()">/</button>
+        <button class="operacion" onclick="sumar()">+</button>
+        <button class="operacion" onclick="restar()">-</button>
+        <button class="operacion" onclick="multiplicar()">x</button>
+        <button class="operacion" onclick="operacion()">=</button>
     </aside>
 </main>
     <script src="js/index.js"></script>
